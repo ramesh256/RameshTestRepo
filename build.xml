@@ -5,6 +5,6 @@
     
 	<!-- BuildAvanthi-->
     <target name="BuildAvanthi">
-        <sf:deploy username="${qastage.username}" password="${qastage.password}" serverurl="${qastage.serverurl}" deployRoot="https://github.com/ramesh256/RameshTestRepo/tree/master/src" runAllTests="false" checkOnly="false" pollwaitmillis="90000" maxpoll="20"/>
+        <sf:deploy username="${qastage.username}" password="${qastage.password}" serverurl="${qastage.serverurl}" deployRoot="/src" runAllTests="false" checkOnly="false" pollwaitmillis="90000" maxpoll="20"/>
     </target>
 </project>
