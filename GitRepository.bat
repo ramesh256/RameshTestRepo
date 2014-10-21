@@ -4,4 +4,4 @@ cd c:\GitRepository
 git init
 git clone https://github.com/ramesh256/MergeRepo.git 
 git fetch https://github.com/ramesh256/MergeRepo.git
-git checkout -b B1 origin/B1
+git checkout origin/B1
