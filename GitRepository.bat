@@ -5,6 +5,7 @@ git init
 git clone https://github.com/ramesh256/MergeRepo.git
 cd c:\GitRepository\MergeRepo
 git config credential.helper store
+git config --global push.default matching
 git push https://github.com/ramesh256/MergeRepo.git
 Username:ramesh256
 Password:1987oct17
