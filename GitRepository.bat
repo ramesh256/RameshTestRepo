@@ -13,6 +13,8 @@ git checkout B1
 git checkout B2
 git merge B1
 git push origin HEAD
+Username:ramesh256
+Password:1987oct1
 git checkout master
 git merge B1
 git push origin HEAD
